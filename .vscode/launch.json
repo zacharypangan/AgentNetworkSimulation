@@ -8,7 +8,7 @@
             "name": "Python: Jupyter",
             "type": "python",
             "request": "launch",
-            "program": "${config:python.pythonPath}",
+            "program": "${command:python.interpreterPath}",
             "args": [
                 "jupyter",
                 "notebook"
